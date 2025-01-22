@@ -1,0 +1,25 @@
+<div class="titleContenido">
+  <h6><samp>Porque Laurl.Com</samp></h6>
+</div>
+<div class="sectionCards">
+  <div>
+    <div *ngFor="let card of cards" class="card">
+      <div *ngIf="card.svg" class="imgCard">
+        <svg
+          [attr.xmlns]="card.svg.xmlns"
+          [attr.viewBox]="card.svg.viewBox"
+          [attr.style]="card.svg.style"
+        >
+          <ng-container *ngFor="let child of card.svg.children">
+            <path [attr.d]="child.path.d"></path>
+          </ng-container>
+        </svg>
+      </div>
+      <div class="textCard">
+        <h3>{{ card.title}}</h3>
+        <br/>
+        <p [innerHTML]="card.text"></p>
+      </div>
+    </div>
+  </div>
+</div>

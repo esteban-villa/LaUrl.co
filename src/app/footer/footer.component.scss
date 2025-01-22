@@ -1,0 +1,109 @@
+.footer{
+  min-height: 300px;
+  background: #27013a;
+}
+
+.containerFooter{
+  background: #d3faf0;
+  width: 90%;
+  //height: 90%;
+  margin: auto;
+  border-radius: 30px;
+}
+.info{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 180px;
+}
+.logo{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo h1{
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: clamp(0px, 3vw, 28px);
+  text-align: center;
+  color: #470981;
+}
+
+.logo svg{
+  width: 50%;
+}
+.pages{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+.pages a{
+  margin: 3%;
+  text-align: justify;
+  width: 50%;
+  text-decoration: none; /* Eliminar subrayado */
+  color: inherit; /* Usar el color del texto padre */
+  background: none; /* Eliminar cualquier fondo */
+  border: none;
+  font-size: clamp(0px, 3vw, 16px);
+}
+
+.pages a:hover{
+  text-decoration: underline; /* Mantener subrayado */
+  text-decoration-color: #470981;
+  transform: translateY(-1px);
+}
+
+.loginFooter{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  //justify-content: center;
+
+}
+
+.loginFooter button{
+  width: 80%;
+  margin: 5%;
+  height: 50px;
+  border-radius: 30px;
+}
+
+.IniciarSesion{
+  border: none;
+}
+
+.IniciarSesion:hover{
+  border: 2px solid #13b08a;
+}
+
+.Registrate{
+  background: #13b08a;
+  border: none;
+}
+
+.Registrate:hover{
+  background: #fff;
+  border: 2px solid #13b08a;
+}
+
+.mensaje{
+  display: flex;
+  justify-content: center;
+}
+
+.mensaje p {
+  min-height: 50px;
+  width: 90%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid #470981;
+  font-size: clamp(0px, 2vw, 18px);
+}

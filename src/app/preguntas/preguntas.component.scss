@@ -1,0 +1,85 @@
+.containerAcordeon{
+  background:#27013a;
+  overflow: hidden;
+}
+
+.titleAcordeon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+.titleAcordeon{
+  color: #fff;
+  font-size: 50px;
+}
+
+.acordeon{
+  width: 70%;
+  max-width: 700px;
+  margin: auto;
+}
+
+.acordeon-item{
+  margin-bottom: 20px;
+  transition:  1s ease-out;
+}
+
+.acordeon-itemOpen{
+  background: #ffffff65;
+  border-radius: 30px;
+  transition: max-height 1s ease-out;
+}
+
+.acordeon-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff65;
+  border-radius: 30px;
+  min-height: 70px;
+  cursor: pointer;
+}
+
+.acordeon-headerOpen{
+  background: none;
+}
+
+.acordeon-header button{
+  width: 80%;
+  background: none;
+  border: none;
+  color: #fff;
+  text-align:justify;
+  margin-left: 3%;
+  font-size: clamp(0px, 3vw, 20px);
+}
+
+.acordeon-header svg{
+  margin-right: 3%;
+  transition: transform 0.5s ease-out;
+}
+
+.acordeon-headerOpen svg {
+  transform: rotate(180deg);
+}
+
+.acordeon-content{
+  display: block;
+  color: #fff;
+  margin-left: 5%;
+  margin-right: 5%;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+}
+
+.acordeon-content p{
+  margin-bottom: 5px;
+}
+
+.acordeon-contentOpen{
+  display: block;
+  max-height: 200px; /* Ajusta según sea necesario */
+}

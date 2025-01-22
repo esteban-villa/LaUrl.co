@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "pregunta": "¿Qué es un acortador de links?",
+    "respuesta": "Un acortador de links es una herramienta que toma una URL larga y la convierte en una URL más corta, fácil de compartir y gestionar."
+  },
+  {
+    "id": 2,
+    "pregunta": "¿Cómo funciona el acortador de links?",
+    "respuesta": "El acortador de links genera una nueva URL más corta que redirige a la URL original cuando se hace clic en ella."
+  },
+  {
+    "id": 3,
+    "pregunta": "¿Es gratuito usar el acortador de links?",
+    "respuesta": "Sí, ofrecemos una versión gratuita con características básicas. También tenemos planes premium con características adicionales."
+  },
+  {
+    "id": 4,
+    "pregunta": "¿Puedo personalizar los links acortados?",
+    "respuesta": "Sí, con nuestros planes premium, puedes personalizar los enlaces acortados para que sean más fáciles de recordar."
+  },
+  {
+    "id": 5,
+    "pregunta": "¿Cuánto tiempo duran los links acortados?",
+    "respuesta": "Los links acortados creados con nuestra herramienta no expiran, a menos que el usuario decida eliminarlos."
+  },
+  {
+    "id": 6,
+    "pregunta": "¿Puedo rastrear el rendimiento de mis links acortados?",
+    "respuesta": "Sí, ofrecemos herramientas de análisis que te permiten ver cuántas veces se ha hecho clic en tus enlaces y otros datos importantes."
+  },
+  {
+    "id": 7,
+    "pregunta": "¿Es seguro usar el acortador de links?",
+    "respuesta": "Sí, tomamos medidas de seguridad para proteger tus datos y asegurarnos de que los links acortados sean seguros para los usuarios."
+  },
+  {
+    "id": 8,
+    "pregunta": "¿Es seguro usar el acortador de links?",
+    "respuesta": "Sí, tomamos medidas de seguridad para proteger tus datos y asegurarnos de que los links acortados sean seguros para los usuarios."
+  }
+]
