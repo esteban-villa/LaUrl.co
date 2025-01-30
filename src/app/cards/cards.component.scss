@@ -2,8 +2,7 @@
 /*## CONTENIDO ##*/
 /*###############*/
 
-
-.titleContenido{
+.titleContenido {
   height: 100px;
   display: flex;
   justify-content: space-around;
@@ -15,13 +14,13 @@
   color: #470981;
 }
 
-.sectionCards{
+.sectionCards {
   width: 90%; /* Ancho del div */
   margin: auto;
   min-height: 500px;
 }
 
-.sectionCards div {
+.sectionCards {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -30,7 +29,7 @@
 .card {
   background: #13b08927;
   border-radius: 30px;
-  border: 2px solid #13B08A;
+  border: 2px solid #13b08a;
   display: flex;
   align-items: center;
   //min-width: 300px;
@@ -41,33 +40,66 @@
   transition: all 0.3s ease;
 }
 
-.card:hover{
+.card:hover {
   background: #13b08952;
   transform: translateY(-5px);
 }
 
-.imgCard{
+.imgCard {
   width: 30%;
   text-align: center;
 }
 
-.imgCard svg{
+.imgCard svg {
   max-width: 60%;
   max-height: auto;
 }
 
-.textCard{
+.textCard {
   width: 70%;
-  display:flex;
+  display: flex;
   flex-direction: column;
 }
 
-.textCard h3{
+.textCard h3 {
   color: #470981;
   font-size: clamp(0px, 4vw, 22px);
 }
 
-.textCard p{
+.textCard p {
   font-size: clamp(0px, 2vw, 16px);
   margin-right: 2%;
+}
+
+@media (min-width: 401px) and (max-width: 599px) {
+  .titleContenido h6 {
+    font-size: 28px;
+  }
+  .textCard p {
+    font-size: 14px;
+  }
+
+  .sectionCards{
+    flex-direction: column;
+  }
+
+  .textCard h3{
+    font-size: 24px;
+  }
+
+  .card{
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 400px){
+  .titleContenido h6 {
+    font-size: 28px;
+  }
+  .textCard h3{
+    font-size: 26px;
+  }
+  .textCard p {
+    font-size: 16px;
+  }
 }

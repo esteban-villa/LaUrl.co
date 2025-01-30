@@ -19,12 +19,13 @@
   z-index: 10;
 }
 
+
 .title-nav{
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   margin-left: 20px;
-  width: 25%;
+  width: 20%;
 }
 
 .title-nav svg {
@@ -114,6 +115,70 @@
   border: 2px solid #13B08A;
 }
 
+.hamburge{
+  display: none;
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
+
+  .title-nav{
+    width: 30%;
+  }
+  .title-nav svg {
+    height: 25%;
+    width: 25%;
+  }
+
+  .title-nav h1 {
+    font-size: 25px;
+  }
+  .hamburge{
+    display: block;
+    width: 10%;
+    text-align: center;
+  }
+  .login{
+    width:45%;
+    font-size:14px;
+  }
+  .menu ul{
+    display: none;
+  }
+}
+
+@media (max-width: 499px){
+  .title-nav{
+    width: 50%;
+  }
+  .title-nav svg {
+    height: 25%;
+    width: 25%;
+  }
+
+  .title-nav h1 {
+    font-size: 22px;
+  }
+  .hamburge{
+    display: block;
+    width: 25%;
+    text-align: center;
+  }
+  .login{
+    width:50%;
+    justify-content: end;
+  }
+  .IniciarSesion{
+    text-align: end;
+    font-size: 18px;
+  }
+  .Registrate{
+    display: none;
+  }
+  .menu ul{
+    display: none;
+  }
+}
+
 /*##############*/
 /*### HEADER ###*/
 /*##############*/
@@ -121,7 +186,7 @@
   background-color: #13B08A;
   display: flex;
   justify-content: center;
-  min-height: 450px;
+  height: auto;
 }
 
 .header{
@@ -130,7 +195,7 @@
 }
 
 .title{
-  width: 60%;
+  flex: 2;
   font-size: 30px;
   color:#ffffff;
 }
@@ -178,9 +243,52 @@
   border: 3px solid #470981;
 }
 .imgHeader{
-  width: 40%;
+  flex: 1;
   display: flex;
   align-items: center;
-  min-width: 300px;
-  min-height: auto;
+  max-width: 350px;
+  max-height: auto;
+}
+@media (min-width: 500px) and (max-width: 768px) {
+ .title{
+  width: 100%;
+ }
+
+ .imgHeader{
+  display: none;
+ }
+}
+
+@media (max-width: 499px){
+ .title{
+  width: 100%;
+ }
+
+ .title h1{
+  font-size: 36px;
+ }
+
+ .title p{
+  font-size: 18px;
+ }
+
+ .imgHeader{
+  display: none;
+ }
+
+ .buttonLink{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .buttonLink input{
+  width: 100%;
+  margin-bottom: 4px;
+ }
+
+ .buttonLink button{
+  width: 50%;
+  font-size: 18px;
+ }
 }
