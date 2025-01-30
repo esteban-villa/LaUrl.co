@@ -107,3 +107,39 @@
   border-top: 2px solid #470981;
   font-size: clamp(0px, 2vw, 18px);
 }
+
+@media (max-width: 500px){
+  .footer{
+    min-height: 550px;
+  }
+  .info{
+    flex-direction: column-reverse;
+    min-height: 450px;
+  }
+
+  .loginFooter {
+    width: 80%;
+  }
+
+  .loginFooter button{
+    font-size: 20px;
+  }
+  .pages{
+    width: 50%;
+  }
+
+  .pages a{
+    font-size: 18px;
+  }
+  .logo{
+    width: 50%;
+  }
+
+  .logo h1{
+    font-size: 32px;
+  }
+
+  .mensaje p{
+    font-size: 15px;
+  }
+}

@@ -13,6 +13,7 @@
 .titleAcordeon{
   color: #fff;
   font-size: 50px;
+  text-align: center;
 }
 
 .acordeon{
@@ -82,4 +83,13 @@
 .acordeon-contentOpen{
   display: block;
   max-height: 200px; /* Ajusta según sea necesario */
+}
+
+@media (max-width: 500px) {
+  .acordeon{
+    width: 90%;
+  }
+  .acordeon-header button{
+    font-size: 18px;
+  }
 }
